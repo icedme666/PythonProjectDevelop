@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gxm-guestbook
+Version: 1.0.1
+Summary: A guestbook web application.
+Home-page: https://guestbook@git.com
+Author: gxm
+Author-email: gxm@test.com
+Keywords: web,guestbook
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
