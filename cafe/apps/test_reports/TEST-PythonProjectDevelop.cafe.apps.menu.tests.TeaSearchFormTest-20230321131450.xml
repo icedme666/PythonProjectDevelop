@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PythonProjectDevelop.cafe.apps.menu.tests.TeaSearchFormTest-20230321131450" tests="4" file="PythonProjectDevelop/cafe/apps/menu/tests.py" time="0.006" timestamp="2023-03-21T13:14:50" failures="0" errors="0" skipped="0">
+	<testcase classname="PythonProjectDevelop.cafe.apps.menu.tests.TeaSearchFormTest" name="test_either1" time="0.004" timestamp="2023-03-21T13:14:50" file="menu/tests.py" line="37">
+		<!-- 检查名称和种类都无输入时是否会报错 -->
+	</testcase>
+	<testcase classname="PythonProjectDevelop.cafe.apps.menu.tests.TeaSearchFormTest" name="test_either2" time="0.001" timestamp="2023-03-21T13:14:50" file="menu/tests.py" line="43">
+		<!-- 检查输入名称后是否会报错 -->
+	</testcase>
+	<testcase classname="PythonProjectDevelop.cafe.apps.menu.tests.TeaSearchFormTest" name="test_either3" time="0.001" timestamp="2023-03-21T13:14:50" file="menu/tests.py" line="49">
+		<!-- 检查输入种类后是否会报错 -->
+	</testcase>
+	<testcase classname="PythonProjectDevelop.cafe.apps.menu.tests.TeaSearchFormTest" name="test_valid" time="0.001" timestamp="2023-03-21T13:14:50" file="menu/tests.py" line="31">
+		<!-- 检查输入正常时是否会报错 -->
+	</testcase>
+</testsuite>

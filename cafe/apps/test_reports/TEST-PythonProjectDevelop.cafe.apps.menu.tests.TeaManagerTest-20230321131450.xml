@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PythonProjectDevelop.cafe.apps.menu.tests.TeaManagerTest-20230321131450" tests="1" file="PythonProjectDevelop/cafe/apps/menu/tests.py" time="0.003" timestamp="2023-03-21T13:14:50" failures="0" errors="0" skipped="0">
+	<testcase classname="PythonProjectDevelop.cafe.apps.menu.tests.TeaManagerTest" name="test_count_each_kind" time="0.003" timestamp="2023-03-21T13:14:50" file="menu/tests.py" line="25"/>
+</testsuite>
