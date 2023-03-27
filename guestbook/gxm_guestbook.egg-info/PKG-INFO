@@ -4,7 +4,7 @@ Version: 1.0.1
 Summary: A guestbook web application.
 Home-page: https://guestbook@git.com
 Author: gxm
-Author-email: gxm@test.com
+Author-email: gxm@tests.com
 Keywords: web,guestbook
 Classifier: Development Status :: 4 - Beta
 Classifier: Framework :: Flask

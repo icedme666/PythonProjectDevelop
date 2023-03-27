@@ -1,0 +1,19 @@
+tasks:
+  - user: name=mainte
+  - user: name=www
+  - file:
+      dest: /etc/sudoers.d/mainte
+      content: "%mainte ALL=(ALL) NOPASSWD:ALL"
+  - authorized_keys:
+      user: mainte
+      key: "{{ mainte_pubkey }}"
+  - file:
+      src: mainte_seckey
+      dest: /home/mainte/.ssh/id_rsa
+  - apt:
+      name: "{{ item }}"
+      with_items:
+        - mysql
+        - nginx
+  - name: install pip
+    shell:

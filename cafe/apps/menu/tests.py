@@ -1,7 +1,7 @@
 import unittest
 from django.test import TestCase as DjangoTest
-from menu.models import Tea
-from menu.forms import TeaSearchForm
+from .models import Tea
+from .forms import TeaSearchForm
 
 
 # Create your tests here.

@@ -1,0 +1,11 @@
+- name: configure nginx
+  template:
+    src: "{{ item }}"
+    dest: /etc/nginx/"{{ item }}"
+  with_items:
+    - conf.d/gunicorn.conf
+  tags:
+    - configure
+    - deploy
+  notify:
+    - reload nginx

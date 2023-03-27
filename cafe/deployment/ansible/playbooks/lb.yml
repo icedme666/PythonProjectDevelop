@@ -1,0 +1,4 @@
+- hosts: load-balancers
+  sudo_user: mainte
+  roles:
+    - django

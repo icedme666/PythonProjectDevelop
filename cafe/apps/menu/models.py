@@ -26,3 +26,4 @@ class Tea(models.Model):
     kind = models.CharField("种类", max_length=255, choices=TEA_KINDS)
     price = models.IntegerField("价格")
     is_recommended = models.BooleanField("推荐商品", default=False)
+

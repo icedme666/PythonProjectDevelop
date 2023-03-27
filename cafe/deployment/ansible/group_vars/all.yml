@@ -1,0 +1,10 @@
+DOMAIN: myproject.example.com
+NGINX_UPSTREAMS:
+  - 192.168.0.3
+  - 192.168.0.4
+
+SSL:
+  CERTIFICATE: myproject.crt
+  KEY: myproject.key
+
+mainte_pubkey: AAAA

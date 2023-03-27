@@ -1,5 +1,5 @@
 from django import forms
-from menu.models import Tea, TEA_KINDS
+from .models import Tea, TEA_KINDS
 
 
 class TeaSearchForm(forms.Form):

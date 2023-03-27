@@ -69,5 +69,28 @@ def datetime_fmt_filter(dt):
     return dt.strftime('%Y/%m/%d %H:%M:%S')
 
 
+from flask import jsonify
+from bpmappers import Mapper, RawField, ListDelegateField
+
+
+class GreetingMapper(Mapper):
+    name = RawField()
+    comment = RawField()
+
+
+class GreetingListMapper(Mapper):
+    greeting_list = ListDelegateField(GreetingMapper)
+
+
+@application.route("/api/")
+def api_index():
+    """ 留言 """
+    #读取提交的数据
+    greeting_list = load_data()
+    result_dict = GreetingListMapper({"greeting_list": greeting_list}).as_dict()
+    # 以JSON格式返回响应
+    return jsonify(**result_dict)
+
+
 def main():
     application.run('127.0.0.1', 8000, debug=True)
